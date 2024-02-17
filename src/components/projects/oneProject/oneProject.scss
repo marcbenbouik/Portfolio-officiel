@@ -1,0 +1,44 @@
+.left {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.oneProject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    color: white;
+    
+    
+    .oneProjectPicture {
+        width: 400px;
+        height: 550px;
+        background-color: #F1EFEF;
+    }
+    
+    .oneProjectDescription {
+        background-color: #404040;
+        text-align: center;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        border-radius: 8px;
+        
+        h4 {
+            font-size: 26px;
+            color: #cfa8ff
+        }
+        
+        p {
+            font-size: 16px;
+            max-width: 450px;
+            line-height: 18px;
+        }
+    }
+}

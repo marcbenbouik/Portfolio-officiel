@@ -1,0 +1,19 @@
+.title {
+    max-width: 650px;
+    width: 90%;
+    background-color: #6B6B6B;
+    padding: 25px 0px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+
+
+    h2 {
+        font-size: 36px;
+        color: white;
+    }
+}
