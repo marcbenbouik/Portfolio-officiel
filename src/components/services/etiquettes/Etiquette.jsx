@@ -1,5 +1,4 @@
 import "../etiquettes/etiquette.scss"
-import { services } from "../../../data/services"
 function Etiquette({ service }) {
     const getFirstWord = (text) => {
         const words = text.split(" ");

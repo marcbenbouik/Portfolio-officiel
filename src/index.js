@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./styles/reset.css"
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 import Header from './components/header/Header';
 import Introduction from './components/introduction/Introduction';
 import Services from './components/services/Services';
