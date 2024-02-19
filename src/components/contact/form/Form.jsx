@@ -2,12 +2,9 @@ import "../form/form.scss";
 
 function Form() {
 
-    function handleForm() {
-        alert(erreur)
-    }
     return (
-        <div className="App">
-            <form onSubmit={handleForm} name="contact" data-netlify="true">
+        <div className="contact">
+            <form name="contact" method="post" data-netlify="true" onSubmit="submit">
 
                 <input type="hidden" name="form-name" value="contact" />
 
