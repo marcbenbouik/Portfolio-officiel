@@ -1,9 +1,50 @@
 form {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 100%;
+    align-items: flex-start;
+
+    label {
+        color: white;
+        font-size: 22px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .input {
+        width: 30vw;
+        height: 25px;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        outline: none;
+        border: none;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    .message {
+        width: 30vw;
+        height: 200px;
+        font-size: 18px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding: 10px;
+    }
+
+    .envoyer {
+        background-color: transparent;
+        border: solid 5px #cfa8ff;
+        color: #cfa8ff;
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: calc(50% - 100px);
+    }
 }

@@ -7,6 +7,7 @@ import Introduction from './components/introduction/Introduction';
 import Services from './components/services/Services';
 import Project from './components/projects/Projects';
 import Form from './components/contact/form/Form';
+import Contact from './components/contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
     <Introduction />
     <Services />
     <Project />
-    <Form />
+    <Contact />
   </React.StrictMode>
 );
 
