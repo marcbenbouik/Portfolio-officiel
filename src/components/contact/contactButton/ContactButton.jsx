@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import "../contactButton/contactButton.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
