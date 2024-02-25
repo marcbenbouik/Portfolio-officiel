@@ -1,4 +1,4 @@
-.etiquette{
+.etiquette {
     background-color: #282828;
     display: flex;
     flex-direction: column;
@@ -11,13 +11,32 @@
     row-gap: 15px;
     padding: 10px;
     text-align: center;
-    .serviceTitle{
+
+    .serviceTitle {
         font-size: 26px;
-        .purple{
+
+        .purple {
             color: #cfa8ff
         }
     }
-    .serviceShortDescritpion{
+
+    .serviceShortDescritpion {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .etiquette {
+        .serviceTitle {
+            font-size: clamp(20px, 5vw, 26px);
+
+            .purple {
+                color: #cfa8ff
+            }
+        }
+
+        .serviceShortDescritpion {
+            font-size: clamp(12px, 3vw, 16px);;
+        }
     }
 }

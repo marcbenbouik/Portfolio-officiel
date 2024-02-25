@@ -29,6 +29,7 @@
         flex-direction: column;
         row-gap: 15px;
         border-radius: 8px;
+        box-sizing: border-box;
         
         h4 {
             font-size: 26px;
@@ -40,5 +41,20 @@
             max-width: 450px;
             line-height: 18px;
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .oneProject{
+        flex-direction: column-reverse;
+        row-gap: 10px;
+        .oneProjectPicture{
+            width: 80vw;
+        }
+        .oneProjectDescription{
+            width: 80vw;
+            padding: 20px;
+        }
+        
     }
 }

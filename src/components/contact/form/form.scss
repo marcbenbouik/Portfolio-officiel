@@ -48,3 +48,15 @@ form {
         margin-left: calc(50% - 100px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    form {
+        .input {
+            width: 80vw;
+        }
+
+        .message {
+            width: 80vw;
+        }
+    }
+}

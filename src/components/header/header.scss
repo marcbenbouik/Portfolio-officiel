@@ -11,11 +11,14 @@ header {
     height: 80px;
     color: white;
     z-index: 4;
-    .logo{
+    transition: top 0.3s;
+
+    .logo {
         font-size: 32px;
         color: #cfa8ff;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-direction: row;
         align-items: center;

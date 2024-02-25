@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         title: "Portfolio de Nina Carducci",
-        description: "Ce projet déja existant est un exemple d'amélioration des performances globales, du référencement naturel, et de l'accéssibilité"
+        description: "Ce projet déja existant est un exemple d'amélioration des performances globales, du référencement naturel, et de l'accessibilité"
     },
     {
         id: 2,

@@ -18,3 +18,12 @@
     color: white;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 768px) {
+.contactButton{
+    .buttonDiv{
+        width: 80vw;
+    }
+}
+}
