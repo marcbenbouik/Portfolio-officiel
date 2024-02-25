@@ -3,27 +3,28 @@ import { useState, useEffect, useRef } from 'react';
 function Header() {
 
     const [prevScrollpos, setPrevScrollpos] = useState(window.pageYOffset);
-  const headerRef = useRef(null);
+    const headerRef = useRef(null);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollPos = window.pageYOffset;
 
-      if (prevScrollpos > currentScrollPos) {
-        headerRef.current.style.top = "0";
-      } else {
-        headerRef.current.style.top = "-80px";
-      }
+            if (prevScrollpos < currentScrollPos && currentScrollPos > 100) {
+                headerRef.current.style.top = "-80px";
+            } else {
+                headerRef.current.style.top = "0px";
+            }
+            console.log(currentScrollPos, currentScrollPos + 50)
 
-      setPrevScrollpos(currentScrollPos);
-    };
+            setPrevScrollpos(currentScrollPos);
+        };
 
-    window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [prevScrollpos]);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [prevScrollpos]);
 
 
     return (
