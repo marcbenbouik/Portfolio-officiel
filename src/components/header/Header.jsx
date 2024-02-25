@@ -31,12 +31,10 @@ function Header() {
         <header ref={headerRef}>
             <div className="logo">2B WEB</div>
             <nav>
-                <ul>
-                    <li>Accueil</li>
-                    <li>Services</li>
-                    <li>Projets</li>
-                    <li>Contact</li>
-                </ul>
+                <a href="#introduction">Accueil</a >
+                <a href="#services">Services</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
     )

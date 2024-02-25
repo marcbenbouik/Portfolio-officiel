@@ -9,7 +9,7 @@ function Services() {
             {services.map((service) => (
                 <Etiquette service={service} />
             ))}
-            <Title title={"Quelques Projets"}/>
+            <Title title={"Quelques Projets"} id={"projets"}/>
         </section>
     )
 }

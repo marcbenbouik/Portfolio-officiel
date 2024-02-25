@@ -9,7 +9,7 @@ function Project(){
             {projects.map((project) => (
                 <OnePRoject project={project} />
             ))}
-            <Title title={"Contactez-moi !"}/>
+            <Title title={"Contactez-moi !"} id={"contact"}/>
         </section>
     )
 }
