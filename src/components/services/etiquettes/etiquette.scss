@@ -1,3 +1,32 @@
+.etiquette.card {
+    /* Styles spécifiques à la 3D */
+    perspective: 1500px;
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    transform-style: preserve-3d;
+    transform-origin: center bottom;
+    box-shadow: 0 1px 5px #00000099;
+    position: relative;
+}
+
+.etiquette.card:hover {
+    transition-duration: 150ms;
+    box-shadow: 0 5px 20px 5px #00000044;
+}
+
+.etiquette.card .glow {
+    /* Styles pour la lueur */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
+    border-radius: 8px;
+}
+
+
 .etiquette {
     background-color: #282828;
     display: flex;

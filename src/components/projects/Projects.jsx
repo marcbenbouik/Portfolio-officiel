@@ -5,11 +5,11 @@ import Title from "../title/Title"
 
 function Project(){
     return(
-        <section className="project">
+        <section className="project" id="projets">
             {projects.map((project) => (
                 <OnePRoject project={project} />
             ))}
-            <Title title={"Contactez-moi !"} id={"contact"}/>
+            <Title title={"Contactez-moi !"} id={"contactTitle"}/>
         </section>
     )
 }

@@ -5,11 +5,11 @@ import Etiquette from "./etiquettes/Etiquette";
 
 function Services() {
     return (
-        <section className="services">
+        <section className="services" id="services">
             {services.map((service) => (
                 <Etiquette service={service} />
             ))}
-            <Title title={"Quelques Projets"} id={"projets"}/>
+            <Title title={"Quelques Projets"} id={"projetsTitle"}/>
         </section>
     )
 }

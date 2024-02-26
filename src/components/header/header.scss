@@ -12,12 +12,12 @@ header {
     color: white;
     z-index: 4;
     transition: top 0.3s;
-
+    
     .logo {
         font-size: 32px;
         color: #cfa8ff;
     }
-
+    
     nav {
         display: flex;
         flex-direction: row;
@@ -25,14 +25,22 @@ header {
         justify-content: center;
         gap: 25px;
         list-style: none;
-
+        
         a {
             color: white;
             text-decoration: none;
         }
-
+        
         a:visited {
             color: white;
+        }
+        
+        .active {
+            // font-size: px;
+            color: #cfa8ff;
+        }
+        .active:visited{
+            color: #cfa8ff;
         }
     }
 }

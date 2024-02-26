@@ -6,7 +6,7 @@ import Form from "./form/Form"
 
 function Contact() {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="contactDiv">
                 <p className="contactText"><span className="s36">Travaillons ensembles !</span><br />Demandez un devis gratuitement <br /> Nous etudierons ca ensemble</p>
                 <div className="contactDivButton">
