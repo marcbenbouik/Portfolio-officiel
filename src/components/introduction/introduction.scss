@@ -38,6 +38,14 @@
         height: 300px;
         border-radius: 50%;
         background-color: #F1EFEF;
+        overflow: hidden;
+        position: relative;
+
+        .profile{
+            width: 500px;
+            position: absolute;
+            left: -80px;
+        }
     }
 
     .titre {

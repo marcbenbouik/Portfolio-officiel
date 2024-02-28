@@ -6,10 +6,12 @@ import Etiquette from "./etiquettes/Etiquette";
 function Services() {
     return (
         <section className="services" id="services">
-            {services.map((service) => (
-                <Etiquette service={service} />
-            ))}
-            <Title title={"Quelques Projets"} id={"projetsTitle"}/>
+            <div className="servicesDiv">
+                {services.map((service) => (
+                    <Etiquette service={service} />
+                ))}
+            </div>
+            <Title title={"Quelques Projets"} id={"projetsTitle"} />
         </section>
     )
 }

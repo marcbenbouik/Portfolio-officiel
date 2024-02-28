@@ -14,13 +14,17 @@
     column-gap: 50px;
     color: white;
     width: 80%;
-    max-width: 1000px;
+    max-width: 1200px;
     
     
     .oneProjectPicture {
         width: 70%;
-        height: 550px;
+        max-width: 450px;
+        height: auto;
         background-color: #F1EFEF;
+        img{
+            width: 100%;
+        }
     }
     
     .oneProjectDescription {
