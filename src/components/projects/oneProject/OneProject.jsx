@@ -6,7 +6,7 @@ function OnePRoject({ project }) {
     return (
         <article className={`oneProject ${isPair ? 'right' : 'left'}`}>
             <div className="oneProjectPicture">
-                <img src={`${process.env.PUBLIC_URL}/pictures/${project.src}`} alt="" />
+                <img src={`pictures/${project.src}`} alt="" />
             </div>
             <div className="oneProjectDescription">
                 <h4>{project.title}</h4>
