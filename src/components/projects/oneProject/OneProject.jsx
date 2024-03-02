@@ -10,7 +10,9 @@ function OnePRoject({ project }) {
             </div>
             <div className="oneProjectDescription">
                 <h4>{project.title}</h4>
-                <p>{project.description}</p>
+                {project.description.split('\n\n').map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                    ))}
             </div>
         </article>
     )

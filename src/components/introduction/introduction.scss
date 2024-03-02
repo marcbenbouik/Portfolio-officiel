@@ -7,19 +7,25 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    column-gap: 10vw;
+    column-gap: clamp(5px, 3vw, 80px);
     position: relative;
-    padding-bottom: 100px;
-        padding-top: 100px;
+    padding: 100px 2%;
 
     .presentation {
         text-align: center;
         display: flex;
         flex-direction: column;
         row-gap: 40px;
+        align-items: center;
+        width: 60%;
+        max-width: 550px;
+
+        .purple {
+            color: #cfa8ff
+        }
 
         h1 {
-            font-size: 46px;
+            font-size: clamp(36px, 5vw, 46px);
         }
 
         p {
@@ -27,21 +33,18 @@
             max-width: 400px;
             line-height: 22px;
 
-            .purple {
-                color: #cfa8ff
-            }
         }
     }
 
     .profilePicture {
-        width: 300px;
-        height: 300px;
+        width: clamp(250px, 20vw, 300px);
+        height: clamp(250px, 20vw, 300px);
         border-radius: 50%;
         background-color: #F1EFEF;
         overflow: hidden;
         position: relative;
 
-        .profile{
+        .profile {
             width: 500px;
             position: absolute;
             left: -80px;
@@ -55,7 +58,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .introduction{
+    .introduction {
         flex-direction: column;
         height: 100%;
         padding-bottom: 160px;
